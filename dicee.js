@@ -11,10 +11,10 @@ let heading = document.querySelector("h1");
 // console.log(randomimg1);
 // console.log(randomimg2);
 if (randomno1 > randomimg2){
-    document.querySelector("h1").innerHTML= "Player 1 won";
+    document.querySelectorAll("h1")[1].innerHTML= "Player 1 won";
 }else if (randomno1 < randomimg2){
-    document.querySelector("h1").innerHTML= "Player 2 won";
+    document.querySelectorAll("h1")[1].innerHTML= "Player 2 won";
 
 }else{
-    document.querySelector("h1").innerHTML= "It was a tie";
+    document.querySelectorAll("h1")[1].innerHTML= "It was a tie";
 }

@@ -3,6 +3,9 @@
   margin: auto;
   text-align: center;
 }
+.refresh{
+  font-size: 4rem;
+}
 
 .dice {
   text-align: center;
